@@ -1,4 +1,31 @@
 <!-- insert_after "[data-hook='admin_user_api_key']" -->
+<div data-hook="admin_user_lifetime_stats" class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title">
+      <%= Spree.t(:referral_information) %>
+    </h1>
+  </div>
+  
+  <table class="table" id="user-lifetime-stats" data-hook="">
+    <tbody><tr>
+      <td width="30%">Total Sales:</td>
+      <td>$0.00</td>
+    </tr>
+    <tr>
+      <td># Orders:</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Average Order Value:</td>
+      <td>$0.00</td>
+    </tr>
+    <tr>
+      <td>Member Since:</td>
+      <td>2015-08-08</td>
+    </tr>
+  </tbody></table>
+</div>
+
 <fieldset>
   <legend><%= Spree.t(:referral_information) %></legend>
   <table>
