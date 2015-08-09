@@ -1,9 +1,15 @@
-<!-- insert_after "[data-hook='admin_user_api_key']" -->
-<fieldset>
-  <legend><%= Spree.t(:referral_information) %></legend>
-  <table>
+
+<div data-hook="admin_user_lifetime_stats" class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title">
+      <%= Spree.t(:referral_information) %>
+    </h1>
+  </div>
+  
+  <table class="table" data-hook="">
+    <tbody>
     <tr>
-      <th><%= Spree.t(:referred_by) %></th>
+      <td width="30%"><%= Spree.t(:referred_by) %></td>
       <td>
         <% if @user.referred? %>
           <%= link_to(@user.referred_by.email, edit_admin_user_url(@user.referred_by)) %>
@@ -40,5 +46,5 @@
         </ol>
       </td>
     </tr>
-  </table>
-</fieldset>
+  </tbody></table>
+</div>
