@@ -13,7 +13,8 @@ module Spree
     end
 
     def referred_count
-      referred_records.count || 0
+      count = 0
+      count = referred_records.count unless referred_records.nil?
     end
 
     def get_layout
