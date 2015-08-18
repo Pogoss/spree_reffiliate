@@ -21,7 +21,7 @@
     </tr>
     <tr>
       <th><%= Spree.t(:referral_code) %></th>
-      <td><%= @user.referral.code %></td>
+      <td><%= @user.referral.code unless @user.referral.nil? %></td>
     </tr>
     <tr>
       <th><%= Spree.t(:referred_orders) %></th>
