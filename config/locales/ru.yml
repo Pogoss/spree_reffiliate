@@ -1,11 +1,4 @@
 ru:
-activerecord:
-  attributes:
-    spree/affiliate:
-      name: Имя
-      path: Путь
-      partial: Партиал
-      layout: Макет
   spree:
     affiliates: "Связи"
     affiliate_hyperlink: "Ссылка связи"
@@ -36,7 +29,7 @@ activerecord:
     referred_orders: "Приглашенные, сделавшие покупки"
     referred_orders_count: "Кол-во приглашенных, сделавших покупки"
     referred_users_count: "Кол-во приглашенных"
-    referral_code: "Код приглажения"
+    referral_code: "Код приглашения"
     referral_information: "Информация о приглашении"
     referral_url: "Ссылка приглашения"
     spree_application_layout: "Макет spree_application"
@@ -48,3 +41,10 @@ activerecord:
         label: "email"
         subject: "Я только что сделал покупку в %{url}. Присоединяйтесь и зарабатывайте деньги!"
         body: "Нажмите на %{code}, построим пирамиду вместе."
+  activerecord:
+    attributes:
+      spree/affiliate:
+        name: Имя
+        path: Путь
+        partial: Партиал
+        layout: Макет
