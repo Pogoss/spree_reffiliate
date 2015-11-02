@@ -1,0 +1,50 @@
+ru:
+activerecord:
+  attributes:
+    spree/affiliate:
+      name: Имя
+      path: Путь
+      partial: Партиал
+      layout: Макет
+  spree:
+    affiliates: "Связи"
+    affiliate_hyperlink: "Ссылка связи"
+    back_to_affiliates_list: "Назад к списку"
+    editing_affiliate: "Редактировать связь"
+    found: "Найдено"
+    leave_blank_if_no_partial: "(оставьте пустым в отсутствие партиала)"
+    layout: "Макет"
+    listing_affiliates: "Список связей"
+    new_affiliate: "Новая связь"
+    no_layout: "Без макета"
+    no_referred_orders: "Отсутствуют"
+    no_referred_orders_yet: "Отсутствуют."
+    no_referred_users: "Отсутствуют"
+    no_referred_users_yet: "Отсутствуют."
+    not_found: "Не найдено"
+    orders_referred: "Приглашенные, сделавшие покупки"
+    organic: "Основной"
+    partial_status: "Статус партиала"
+    promotion_rule_types:
+      referred_promotion_rule:
+        name: "Приглашенный пользователь"
+        description: "Должен быть приглашеным пользователем"
+      affiliated_promotion_rule:
+        name: "Связанный пользователь"
+        description: "Должен быть связанным пользователем"
+    referred_by: "Приглашен"
+    referred_orders: "Приглашенные, сделавшие покупки"
+    referred_orders_count: "Кол-во приглашенных, сделавших покупки"
+    referred_users_count: "Кол-во приглашенных"
+    referral_code: "Код приглажения"
+    referral_information: "Информация о приглашении"
+    referral_url: "Ссылка приглашения"
+    spree_application_layout: "Макет spree_application"
+    custom_layout_path: "Путь к макету"
+    users_referred: "Приглашенные пользователи"
+    build_your_consumer_network: "Построить собственную сеть"
+    social_referral:
+      email:
+        label: "email"
+        subject: "Я только что сделал покупку в %{url}. Присоединяйтесь и зарабатывайте деньги!"
+        body: "Нажмите на %{code}, построим пирамиду вместе."
