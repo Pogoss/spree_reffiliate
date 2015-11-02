@@ -20,7 +20,7 @@
       </td>
     </tr>
     
-    <% if !@user.refferal.nil? %>
+    <% if !@user.referral.nil? %>
     <tr>
       <th><%= Spree.t(:referral_code) %></th>
       <td><%= @user.referral.code unless @user.referral.nil? %></td>
