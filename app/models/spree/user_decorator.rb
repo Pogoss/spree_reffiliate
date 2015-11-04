@@ -1,9 +1,9 @@
 module Spree
   Spree.user_class.class_eval do
-    has_one :referral
-    has_one :referred_record
-    has_one :affiliate, through: :referred_record, foreign_key: :affiliate_id
-    has_one :affiliate_record, class_name: ReferredRecord
+    has_one :referral, dependent: :destroy
+    has_one :referred_record, dependent: :destroy
+    has_one :affiliate, through: :referred_record, foreign_key: :affiliate_id, dependent: :destroy
+    has_one :affiliate_record, class_name: ReferredRecord, dependent: :destroy
 
     attr_accessor :referral_code, :affiliate_code
 
